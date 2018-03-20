@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $("#light").click(function() {
     $("body").removeClass();
-    $("body").addClass("red-background");
+    $("body").addClass("light-theme");
+  });
+  $("#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-theme");
   });
 });

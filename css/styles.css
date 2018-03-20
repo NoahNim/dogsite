@@ -37,6 +37,16 @@ body {
   text-align: center;
 }
 
+.dark-theme {
+  background-color: #2b3038;
+  color: white;
+}
+
+.light-theme {
+  background-color: #cee1ff;
+  color: black;
+}
+
 ul {
   list-style-type: none;
 }
@@ -49,12 +59,4 @@ ol {
   font-weight: bolder;
   font-size: 24px;
   color: #ff0000;
-}
-
-#homebody {
-  background-color: #e7e8b0;
-}
-
-#contactbody {
-  background-color: #b8e8b0;
 }
