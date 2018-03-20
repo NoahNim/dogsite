@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>G-Rex Website</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body id="homebody">
-    <nav>
-      <a href="dogsite.html">home</a> <a href="contact.html">contact</a>
+    <nav class="nav nav-tabs ml-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="dogsite.html">home</a></li>
+        <li class="nav-item"><a href="contact.html">contact</a></li>
+        <li class="nav-item"><button class="btn" id="light">Light Theme</button></li>
+        <li class="nav-item"><button class="btn" id="dark">Dark Theme</button></li>
+      </ul>
     </nav>
     <h1 class="thedog">G-Rex</h1>
     <img src="https://www.luckypet.com.au/assets/alt_1/dino-onesie.jpg">
